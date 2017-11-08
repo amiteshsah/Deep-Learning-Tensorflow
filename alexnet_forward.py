@@ -14,8 +14,6 @@ from numpy import random
 from caffe_classes import class_names
 import tensorflow as tf
 
-
-
 train_x = zeros((1, 227,227,3)).astype(float32)
 train_y = zeros((1, 1000))
 xdim = train_x.shape[1:]
